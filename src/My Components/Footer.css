@@ -1,0 +1,120 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  color: #fff;
+}
+.red{
+    width: 100%;
+    height: 120px;
+    background-color: lightcoral ;
+}
+.leftsec {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.midsec {
+  width: 20%;
+}
+.rightsec {
+  width: 40%;
+}
+
+.social-icons {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+p {
+  margin-top: 20px;
+}
+.midsec {
+  display: flex;
+  width: 20%;
+}
+.list1 {
+  margin-right: 10px;
+}
+.helfulLinksul,
+.legalul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+.helfulLinksul li,
+.legalul li {
+  padding-top: 10px;
+}
+.helfulLinksul li a,
+.legalul li a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+.helfulLinksul li a :hover,
+.legalul li a :hover {
+  color: cyan;
+}
+
+.rightsec {
+  width: 20%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.email {
+  margin-bottom: 10px;
+}
+
+.appIcons {
+  display: flex;
+  gap: 10px;
+  margin: 20px 10px;
+}
+
+.googelplay {
+  display: flex;
+  align-items: center;
+  border: 1px solid cyan;
+  width: 100%;
+}
+
+.appIcon {
+  font-size: 48px;
+  margin-right: 10px;
+}
+
+.googelplay p {
+  margin: 0;
+  font-size: 11px;
+}
+
+.googelplay h2 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #f2f2f2;
+}
